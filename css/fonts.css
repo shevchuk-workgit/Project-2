@@ -1,4 +1,4 @@
-h1, h2{
+h1, h2, h3{
   font-family: "forum","Times New Roman", sans-serif,serif;
   font-style: normal;
   font-size:64px;
@@ -6,6 +6,11 @@ h1, h2{
 }
 
 h2{
+  color: #fff;
+}
+
+h3{
+  font-size: 48px;
   color: #fff;
 }
 
@@ -39,4 +44,13 @@ h2{
   
   font-size:14px;
   color:#EFC58B;
+}
+
+.section-1_content .font-description{
+  font-size: 24px;
+  color:#fff
+}
+
+.main_section-2_find-position .font-description{
+  color:#fff
 }
