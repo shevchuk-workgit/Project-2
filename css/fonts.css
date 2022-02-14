@@ -54,3 +54,10 @@ h3{
 .main_section-2_find-position .font-description{
   color:#fff
 }
+
+.section-3_card-3>ul>li:nth-child(1){
+  color:#fff;
+}
+.section-3_card-3>ul>li:nth-child(2){
+  color:#E7E7E7;
+}
