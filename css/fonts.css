@@ -52,6 +52,7 @@ h3{
 }
 
 .main_section-2_find-position .font-description{
+  font-size: 18px;
   color:#fff
 }
 
@@ -65,4 +66,19 @@ h3{
 .section-4_phone{
   font-size: 22px;
   color: #959595;
+}
+
+footer .font-description{
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.footer_phone .font-footer-phone{
+  font-size: 18px;
+  color: #C2C2C2;
+}
+
+#footer_mail{
+  font-size: 14px;
+  color: #C2C2C2;
 }

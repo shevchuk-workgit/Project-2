@@ -48,7 +48,7 @@ body{
   height: 20px;
   padding: 20px;
   margin-right: 0px;
-
+  border-radius: 5px;
 
 }
 
@@ -92,6 +92,7 @@ body{
 .switch-language_ru, .switch-language_en{
   display: inline-block;
   padding: 8px;
+  border-radius: 5px;
 }
 
 .switch-language_ru:hover, .switch-language_en:hover{
@@ -234,7 +235,7 @@ margin:auto;
 }
 .section-3_card-3{
   grid-area: card-3;
-  background-image: url(/image/section-3-card-3.png);
+  background-image: url(../image/section-3-card-3.png);
 }
 .section-3_card-4{
   grid-area: card-4;
@@ -315,6 +316,11 @@ margin-bottom: 20px;
   padding: 5px;
 }
 
+#secion-4_mail:focus{
+  background-color: #fff;
+  border-radius: 5px;
+}
+
 .section-4_content>ul>li:nth-child(1), .section-4_content>ul>li:nth-child(3){
   margin-bottom: 30px;
 }
@@ -323,7 +329,108 @@ margin-bottom: 20px;
   margin-bottom: 110px;
 }
 
-#secion-4_mail:focus{
-  background-color: #fff;
+
+/*section-4 end*/
+/*main end*/
+
+/*footer start*/
+/*footer_top start*/
+
+
+
+footer{
+  width: 1440px;
+  
+  background-color: #272727;
+  box-sizing: border-box;
+  margin:auto;
+  padding: 80px 162px 90px 162px;
+
+}
+
+.footer_top{
+  margin-bottom: 90px;
+}
+
+.footer_top>ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_top>ul>li>a{
+  display: block;
+  padding: 10px;
   border-radius: 5px;
+}
+
+.footer_top>ul>li>a:hover{
+  background-color: coral;
+  color:#272727;
+}
+/*footer_top end*/
+/*footer_bottom end*/
+
+.footer_bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer_phone a{
+  display: inline-block;
+  padding: 10px;
+  border-radius: 5px;
+  
+}
+
+.footer_phone a:hover{
+  background-color: coral;
+}
+
+.footer_phone>li{
+  margin-bottom: 15px;
+}
+
+.footer_phone>li:nth-last-child(1){
+  margin-bottom: 0;
+}
+
+.footer_subscribe .form_input-E-mail{
+  display: flex;
+  border-bottom:2px solid #fff;
+  padding-bottom: 10px;
+}
+
+#footer_mail{
+
+  border:none;
+  background-color: #272727;
+  width: 100%;
+  outline: none;
+
+  padding: 5px;
+}
+
+#footer_mail:focus{
+  background-color: black;
+  border-radius: 5px;
+}
+
+.footer_subscribe a{
+  display: inline-block;
+  padding: 10px;
+  border-radius: 5px;
+  
+}
+
+.footer_subscribe a:hover{
+  background-color: coral;
+}
+
+.footer_subscribee li{
+  margin-bottom: 50px;
+}
+
+.footer_subscribe li:nth-last-child(1){
+  margin-bottom: 0;
 }
