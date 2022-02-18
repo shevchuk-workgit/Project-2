@@ -13,7 +13,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&display=swap" rel="stylesheet">
 
-
   <title>Moon River</title>
 
 </head>
@@ -21,18 +20,55 @@
   <header>
     <div class="header_container">
       <div class="header_background-right"></div>
-      <div class="header_content">
-          
+      <div class="header_content">          
         <div class="header_top">
           <img src="image/logo 1.png" alt="Moon River">
-          <div class="header_menu-icon">
-            <a href="#"><img src="image/menu icon 1.png" alt="Heart" class="menu-icon1"></a
-            ><a href="#"><img src="image/menu icon 2.png" alt="People" class="menu-icon2"></a
-            ><a href="#"><img src="image/menu icon 3.png" alt="Lock" class="menu-icon3"></a
-            ><a href="#"><img src="image/nav-menu-icon.png" alt="Menu" class="nav-menu-icon"></a>
-          </div>
+          <ul class="header_menu-icon">
+            <li><a href="#"><img src="image/menu icon 1.png" alt="Heart" class="menu-icon1"></a></li
+            ><li><a href="#"><img src="image/menu icon 2.png" alt="People" class="menu-icon2"></a></li
+            ><li><a href="#"><img src="image/menu icon 3.png" alt="Lock" class="menu-icon3"></a></li>
+            <li class="nav-menu-icon">            
+              <img src="image/nav-menu-icon.png" alt="Menu" >              
+              <ul class="nav-menu">
+                <li><a href="#" class="font-description">ювелирные изделия</a>
+                  <ul class="nav-menu_sub-menu">
+                    <li><a href="#" class="font-description">Кольца</a></li>
+                    <li><a href="#" class="font-description">Браслеты</a></li>
+                    <li><a href="#" class="font-description">Колье</a></li>
+                    <li><a href="#" class="font-description">Серьги</a></li>
+                    <li><a href="#" class="font-description">Броши</a></li>
+                  </ul>
+                </li>
+                <li><a href="#" class="font-description">часы</a>
+                  <ul class="nav-menu_sub-menu">
+                    <li><a href="#" class="font-description">Механические</a></li>
+                    <li><a href="#" class="font-description">Кварцевые</a></li>
+                    <li><a href="#" class="font-description">Электронные часы</a></li>
+                    <li><a href="#" class="font-description">Кинетические</a></li>
+                    <li><a href="#" class="font-description">Смарт-часы</a></li>
+                  </ul>
+                </li>
+                <li><a href="#" class="font-description">парфюм</a>
+                  <ul class="nav-menu_sub-menu">
+                    <li><a href="#" class="font-description">Духи</a></li>
+                    <li><a href="#" class="font-description">Парфюмированная вода</a></li>
+                    <li><a href="#" class="font-description">Туалетная вода</a></li>
+                    <li><a href="#" class="font-description">Одеколон</a></li>                  
+                  </ul>
+                </li>
+                <li><a href="#" class="font-description">изделия из кожи</a>
+                  <ul class="nav-menu_sub-menu">
+                    <li><a href="#" class="font-description">Сумки</a></li>
+                    <li><a href="#" class="font-description">Ремни</a></li>
+                    <li><a href="#" class="font-description">Кошельки</a></li>
+                    <li><a href="#" class="font-description">Аксессуары</a></li>                  
+                  </ul>
+                </li>
+                <li><a href="#" class="font-description">другое</a></li>
+              </ul>            
+            </li>
+          </ul>
         </div>
-
         <div class="header_middle">
           <h1 class="">HIGH JEWELRY</h1>
           <img src="image/header_ring.png" alt="Ring" class="header_ring">
@@ -142,7 +178,7 @@
         <div class="section-4_content">
           <ul>
             <li class="font-header">ТЕЛЕФОН ФЛАГМЕНСКОГО МАГАЗИНА</li>
-            <li  class="font-description section-4_phone">+7 800 456 456</li>
+            <li class="font-description section-4_phone">+7 800 456 456</li>
             <li class="font-header"><label for="secion-4_mail">ПОДПИШИТЕСЬ НА НОВОСТИ</label></li>
             <li>
               <form action="#" method="post" class="form_input-E-mail">
@@ -153,7 +189,9 @@
           </ul>      
         </div>
       </div>
+
     </div>
+
   </main>
 
   <footer>
@@ -168,29 +206,29 @@
     </div>
     <div class="footer_bottom">
       <img src="image/logo 2.png" alt="Moon River">
-      <ul class="footer_phone">
-        <li class="font-description">телефон горячей линии</li>
-        <li class="font-description font-footer-phone">+7 800 456 456</li>
-        <li>
-          <a href="#" ><img src="image/facebook-icon.png" alt="Facebook"></a
-          ><a href="#" ><img src="image/instagram-icon.png" alt="Instagram"></a>
-        </li>
-      </ul>
-      <ul class="footer_subscribe">
-        <li class="font-description"><label for="footer_mail">подпишитесь на новости</label></li>
-        <li>
-          <form action="#" method="post" class="form_input-E-mail">
-            <input type="email" placeholder="Введите E-mail:" id="footer_mail" name="footer_mail">
-            <input type="image" src="image/arrow-1.png">
-        </li>
-        <li>
-          <a href="#"><img src="image/apple-store-icon.png" alt="Apple store"></a>
-          <a href="#"><img src="image/google-play-icon.png" alt="Google play"></a>
-        </li>
-      </ul>
+      <div class="footer_content">
+        <ul class="footer_phone">
+          <li class="font-description">телефон горячей линии</li>
+          <li class="font-description font-footer-phone">+7 800 456 456</li>
+          <li>
+            <a href="#" ><img src="image/facebook-icon.png" alt="Facebook"></a
+            ><a href="#" ><img src="image/instagram-icon.png" alt="Instagram"></a>
+          </li>
+        </ul>
+        <ul class="footer_subscribe">
+          <li class="font-description"><label for="footer_mail">подпишитесь на новости</label></li>
+          <li>
+            <form action="#" method="post" class="form_input-E-mail">
+              <input type="email" placeholder="Введите E-mail:" id="footer_mail" name="footer_mail">
+              <input type="image" src="image/arrow-1.png">
+          </li>
+          <li>
+            <a href="#"><img src="image/apple-store-icon.png" alt="Apple store"></a
+            ><a href="#"><img src="image/google-play-icon.png" alt="Google play"></a>
+          </li>
+        </ul>
+      </div>
     </div>
   </footer>
-
-
 </body>
 </html>

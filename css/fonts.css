@@ -16,10 +16,8 @@ h3{
 
 .font-header{
   font-family: "Noto Sans","Times New Roman", sans-serif,serif;
-  font-weight: 400;
- 
-  font-size:16px;
- 
+  font-weight: 400; 
+  font-size:16px; 
   color:#272727;
 }
 .header_ring-description>.font-header{
@@ -27,8 +25,7 @@ h3{
 }
 .font-description{
   font-family: "Noto Sans","Times New Roman", sans-serif,serif;
-  font-weight: 300;
-  
+  font-weight: 300;  
   font-size:14px;
   color:#757575;
 }
@@ -40,10 +37,18 @@ h3{
 .font-price{
   font-family: "Noto Sans","Times New Roman", sans-serif,serif;
   font-weight: 400;
-  font-style: italic;
-  
+  font-style: italic;  
   font-size:14px;
   color:#EFC58B;
+}
+
+.nav-menu .font-description{
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.nav-menu_sub-menu .font-description{
+  text-transform: none;
 }
 
 .section-1_content .font-description{
